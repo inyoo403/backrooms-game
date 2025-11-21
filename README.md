@@ -38,7 +38,7 @@ A browser-based 3D horror exploration game inspired by "The Backrooms" creepypas
 1.  **Clone the repository**
 
     ```bash
-    git clone https://github.com/your-username/backrooms-game.git
+    git clone https://github.com/inyoo403/backrooms-game.git
     cd backrooms-game
     ```
 
