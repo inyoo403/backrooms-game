@@ -153,8 +153,8 @@ function createTrimeshBody(mesh: THREE.Mesh): CANNON.Body | null {
 }
 
 const gltfLoader = new GLTFLoader();
-gltfLoader.load('./back1.glb', (gltf) => {
-  const model = gltf.scene;
+gltfLoader.load(import.meta.env.BASE_URL + 'back1.glb', (gltf) => {
+    const model = gltf.scene;
     scene.add(model);
     model.traverse((child) => {
         if ((child as THREE.Mesh).isMesh) {
